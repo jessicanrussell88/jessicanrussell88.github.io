@@ -1,6 +1,6 @@
 body{
 	text-align: center;
-	background-image: url("images/lingerie 1.jpg")
+	background-image: url("images/lingerie 1.jpg");
 	background-size: cover;
 	color: hsl(0,60%,50%);
 	font-family: Garamond;
@@ -30,7 +30,7 @@ hr{
 	padding: 5px;
 }
 .row::after{
-	content:"";
+	content: "";
 	clear: both;
-	display:table;
+	display: table;
 }
