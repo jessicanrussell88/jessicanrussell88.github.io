@@ -1,7 +1,6 @@
 body{
 	text-align: center;
 	background-image: url("images/lingerie_1.jpg");
-	background-repeat: repeat-y;
 	background-size: cover;
 	color: hsl(0,60%,50%);
 	font-family: Garamond;
