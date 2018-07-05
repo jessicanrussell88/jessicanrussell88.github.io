@@ -1,0 +1,36 @@
+body{
+	text-align: center;
+	background-image: url("images/lingerie 1.jpg")
+	background-size: cover;
+	color: hsl(0,60%,50%);
+	font-family: Garamond;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: bold;
+	color: hsl(0,60%,50%);
+}
+
+h2{font-size: 30px;
+font-style: italic;
+color: hsl(0,60%,50%);
+}
+
+p{
+	font-size: 20px;
+}
+
+hr{
+	width: 200px;
+}
+.column{
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+.row::after{
+	content:"";
+	clear: both;
+	display:table;
+}
