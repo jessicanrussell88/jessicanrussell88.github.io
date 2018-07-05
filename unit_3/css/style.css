@@ -1,6 +1,6 @@
 body{
 	text-align: center;
-	background-image: url("images/lingerie1.jpg");
+	background-image: url("images/lingerie 1.jpg");
 	background-size: cover;
 	color: hsl(0,60%,50%);
 	font-family: Garamond;
@@ -16,6 +16,10 @@ h2{
 	font-size: 30px;
 	font-style: italic;
 	color: hsl(0,60%,50%);
+}
+
+ul{
+	text-align: center;
 }
 
 p{
