@@ -7,11 +7,9 @@ body {
 }
 
 .topnav input[type=text] {
-	text-align: right;
-	background-color:grey;
 	background-size:100%
     float: right;
-    word-spacing:px;
+    word-spacing: 30px;
     padding: 30px;
     border-style: rounded;
     margin-top: 8px;
@@ -21,10 +19,14 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
+.topnav a.active {
+    background-color: grey;
+    color: white;
+
 
 #navbar {
 	padding-right: 20px;
-	word-spacing: 40px;
+	word-spacing: 30px;
 
 }
 nav {
