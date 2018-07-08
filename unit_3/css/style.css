@@ -1,38 +1,73 @@
-body{
+body {
 	text-align: center;
 	background: url(images/lingerie_1.jpg);
 	background-size: cover;
 	color: hsl(0,60%,50%);
-	font-family: Garamond;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .topnav input[type=text] {
+	text-align: right;
     float: right;
+    word-spacing:px;
     padding: 6px;
     border-style: rounded;
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
-    text-align: right;
+    font-family: 'Montserrat', sans-serif;
 }
 
+#navbar {
+	padding-right: 20px;
+	word-spacing: 40px;
+
+}
+nav {
+	background-color: grey;
+	background-size: 100%;
+	text-align: center;
+	padding: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+
+
+}
 h1{
 	font-size: 40px;
 	font-weight: bold;
 	color: hsl(0,60%,50%);
+	font-family: 'Montserrat', sans-serif;
 }
 
 h2{
 	font-size: 30px;
 	font-style: italic;
 	color: hsl(0,60%,50%);
+	font-family: 'Montserrat', sans-serif;
 }
 
 
 p{
 	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 hr{
 	width: 200px;
+}
+#footerbar {
+	padding-right: 20px;
+	word-spacing: 40px;
+}
+
+footerbar {
+	background-color: grey;
+	background-size: 100%;
+	text-align: center;
+	padding: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
 }
