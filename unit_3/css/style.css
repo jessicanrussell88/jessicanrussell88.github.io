@@ -1,6 +1,10 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+</style>
+
 body {
 	text-align: center;
-	background: url(images/lingerie_1.jpg);
+	background-image: url(../images/lingerie_1/jpg);
 	background-size: cover;
 	color: hsl(0,60%,50%);
 }
@@ -9,25 +13,37 @@ body {
 	background-size: 100%;
 	background-color: grey;
     float: right;
-    word-spacing: 20px;
     padding: 6px;
     border-style: rounded;
     margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
+    margin-right: 8px;
+    font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
 }
+
 .topnav a.active {
     background-color: white;
-    color: grey;
+    color: white;
+}
+
+.topnav {
+	background-color: grey;
+	background-size: 100%;
+	font-size: 15px;
+	text-align: right;	
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 30px;
+
 }
 
 #navbar {
 	padding-right: 20px;
-	word-spacing: 25px;
+
 
 }
+
 nav {
 	background-color: grey;
 	background-size: 100%;
@@ -39,6 +55,7 @@ nav {
 
 
 }
+
 h1{
 	font-size: 40px;
 	font-weight: bold;
@@ -61,7 +78,6 @@ hr{
 }
 #footerbar {
 	padding-right: 20px;
-	word-spacing: 40px;
 }
 
 footerbar {
