@@ -8,14 +8,18 @@ body {
 
 .topnav input[type=text] {
 	text-align: right;
+	background-color:grey;
+	background-size:100%
     float: right;
     word-spacing:px;
-    padding: 6px;
+    padding: 30px;
     border-style: rounded;
     margin-top: 8px;
     margin-right: 16px;
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 #navbar {
@@ -30,6 +34,7 @@ nav {
 	padding: 30px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
+	text-decoration: none;
 	text-transform: uppercase;
 
 
