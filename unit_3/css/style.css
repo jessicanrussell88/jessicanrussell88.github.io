@@ -1,6 +1,4 @@
-<style>
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-</style>
 
 body{
 	text-align: center;
@@ -11,7 +9,7 @@ body{
 
 .topnav input[type=text]{
 	background-size: 100%;
-	background-color: lightgrey;
+	background-color: lightgray;
     float: right;
     padding: 6px;
     border-style: rounded;
@@ -20,11 +18,12 @@ body{
     font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
+    color: black;
 }
 
 .topnav a.active{
     background-color: white;
-    color: white;
+    color: black;
 }
 
 .topnav{
@@ -35,6 +34,7 @@ body{
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 30px;
+	color: black;
 
 }
 
@@ -76,15 +76,17 @@ p{
 hr{
 	width: 200px;
 }
+
 #footerbar{
 	padding-right: 20px;
 }
 
 #footerbar{
-	background-color: lightgrey;
+	background-color: lightgray;
 	background-size: 100%;
 	text-align: center;
 	padding: 30px;
 	font-size: 15px;
 	text-transform: uppercase;
+	color: black;
 }
