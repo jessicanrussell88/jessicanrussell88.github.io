@@ -8,8 +8,6 @@ body{
 }
 
 .topnav input[type=text]{
-	background-size: 100%;
-	background-color: lightgray;
     float: right;
     padding: 6px;
     border-style: rounded;
@@ -18,7 +16,7 @@ body{
     font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: hsl(0,60%,50%);
 }
 
 .topnav a.active{
@@ -27,14 +25,13 @@ body{
 }
 
 .topnav{
-	background-color: lightgray;
-	background-size: 100%;
 	font-size: 15px;
 	text-align: right;	
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 30px;
-	color: black;
+	color: hsl(0,60%,50%);
+	word-spacing: 12px;
 
 }
 
@@ -45,13 +42,13 @@ body{
 }
 
 nav{
-	background-color: lightgray;
-	background-size: 100%;
+	color: hsl(0,60%,50%);
 	text-align: center;
 	padding: 30px;
 	font-size: 15px;
 	text-decoration: none;
 	text-transform: uppercase;
+	word-spacing: 12px;
 
 
 }
@@ -89,4 +86,5 @@ hr{
 	font-size: 15px;
 	text-transform: uppercase;
 	color: black;
+	word-spacing: 12px;
 }
