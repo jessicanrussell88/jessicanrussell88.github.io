@@ -7,8 +7,8 @@ body {
 }
 
 .topnav input[type=text] {
-	background-size:100%;
-	background-color:grey;
+	background-size: 100%;
+	background-color: grey;
     float: right;
     word-spacing: 20px;
     padding: 6px;
@@ -22,12 +22,12 @@ body {
 }
 .topnav a.active {
     background-color: white;
-    color: white;
+    color: grey;
 
 
 #navbar {
 	padding-right: 20px;
-	word-spacing: 20px;
+	word-spacing: 25px;
 
 }
 nav {
