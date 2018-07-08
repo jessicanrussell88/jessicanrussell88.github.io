@@ -9,7 +9,7 @@ body{
 .topnav input[type=text] {
     float: right;
     padding: 6px;
-    border: none;
+    border-style: rounded;
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
