@@ -6,6 +6,15 @@ body{
 	font-family: Garamond;
 }
 
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
 h1{
 	font-size: 40px;
 	font-weight: bold;
