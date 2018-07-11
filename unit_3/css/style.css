@@ -42,8 +42,7 @@ body{
 
 #navbar{
 	padding-right: 20px;
-
-
+	color: hsl(0,60%,50%);
 }
 
 nav{
