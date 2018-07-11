@@ -1,10 +1,11 @@
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body{
 	text-align: center;
-	background-image: url(../images/lingerie_1/jpg);
+	background-image: url(../images/lingerie_1.jpg);
 	background-size: cover;
-	color: hsl(0,60%,50%);
+	color: hsl(0,40%,50%);
 }
 
 .topnav input[type=text]{
@@ -23,15 +24,19 @@ body{
     background-color: white;
     color: black;
 }
+.topnav a {
+	color: hsl(0,60%,50%);
+}
 
 .topnav{
+	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 	text-align: right;	
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 30px;
 	color: hsl(0,60%,50%);
-	word-spacing: 12px;
+	word-spacing: 5px;
 
 }
 
@@ -48,26 +53,32 @@ nav{
 	font-size: 15px;
 	text-decoration: none;
 	text-transform: uppercase;
-	word-spacing: 12px;
-
-
+	word-spacing: 5px;
+	background-color: lightgray;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h1{
 	font-size: 40px;
 	font-weight: bold;
 	color: hsl(0,60%,50%);
+	font-family: 'Montserrat', sans-serif;
 }
 
 h2{
 	font-size: 30px;
 	font-style: italic;
 	color: hsl(0,60%,50%);
+	font-family: 'Montserrat', sans-serif;
 }
 
 
 p{
 	font-size: 20px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-weight: bold;
 }
 
 hr{
@@ -76,15 +87,18 @@ hr{
 
 #footerbar{
 	padding-right: 20px;
+	color: hsl(0,60%,50%);
 }
 
 #footerbar{
 	background-color: lightgray;
 	background-size: 100%;
 	text-align: center;
-	padding: 30px;
+	padding: 20px;
 	font-size: 15px;
 	text-transform: uppercase;
-	color: black;
-	word-spacing: 12px;
+	text-decoration: none;
+	color: hsl(0,60%,50%);
+	word-spacing: 5px;
+	font-family: 'Montserrat', sans-serif;
 }
