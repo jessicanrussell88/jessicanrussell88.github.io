@@ -39,6 +39,9 @@ body{
 	word-spacing: 5px;
 
 }
+div {
+	background-color: #FFE2B8;
+}
 
 #navbar{
 	padding-right: 20px;
@@ -89,7 +92,7 @@ hr{
 }
 
 #footerbar{
-	background-color: lightpink;
+	background-color: hotpink;
 	background-size: 100%;
 	text-align: center;
 	padding: 15px;
