@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.topnav input[type=text]{
+    float: right;
+}
+
+.topnav a {
+	text-decoration: none;
+	text-align: right;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	padding-right: 60px;
+	color: hotpink;
+	word-spacing: 30px;
+}
+
+.navbar a {
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	padding: 40px;
+	color: hotpink;
+	word-spacing: 10px;
+}
+h1{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255,0,0,0.6);
+	font-size: 1em;
+	text-transform: uppercase;
+}
+.column {
+	float: left;
+	width: 50%;
+	padding: 60px;
+}
+.row::after {
+	content:"";
+	clear: both;
+	display: table;
+}
+.center img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:60%;
+}
+.row {
+	width: 100%;
+}
+
+img{
+	display: block;
+	width: 100%;
+}
+
+.logodiv{
+	max-width: 250px;
+}
+footer a {
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	padding: 40px;
+	color: hotpink;
+	word-spacing: 10px;
+}
